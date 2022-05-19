@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body bgcolor="green">
+    <h1><center>Datos Personales</center></h1>
+    <center>
+    <form action="resultado.html" method="post">
+      <table border="1">
+        <thead>
+          <tr>
+            <th bgcolor="red">Dato</th>
+            <th bgcolor="red">Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td bgcolor="Cyan"><label>Cedula</label></td>
+            <td bgcolor="yellow">
+              <input type="number" name="txtCedula" id="txtCedula" placeholder="Ingrese la cedula conche su madre uwU"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Nombre</label></td>
+            <td bgcolor="yellow">
+              <input type="text" name="txtNombre" id="txtNombre" />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Telefono</label></td>
+            <td bgcolor="yellow">
+              <input type="text" name="txtTelefono" id="txtTelefono" />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Correo</label></td>
+            <td bgcolor="yellow">
+              <input type="email" name="txtCorreo" id="txtCorreo" />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Fecha de Nacimiento</label></td>
+            <td bgcolor="yellow">
+              <input type="date" name="txtFechadenacimiento" id="txtFechadenacimiento"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Color Favorito</label></td>
+            <td bgcolor="yellow">
+              <input type="color" name="txtColorfavorito" id="txtColorfavorito"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Pais de Nacimiento</label></td>
+            <td bgcolor="yellow">
+              <select name="cboPais" id="cboPais">
+                <option value="2">Monaco</option>
+                <option value="1" selected>Colombia</option>
+                <option value="3">Mexico</option>
+                <option value="4">Rusia</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Hobby</label></td>
+            <td bgcolor="yellow">
+              <input type="checkbox" name="chkFutbol" id="txtFutbol" /> Futbol
+              <input type="checkbox" name="chkPolitica" id="txtPolitica" />
+              Politica
+              <input type="checkbox" name="chkBailar" id="txtBailar" /> Bailar
+              <input type="checkbox" name="chkPatinar" id="txtPatinar" />
+              Patinar
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Sexo</label></td>
+            <td bgcolor="yellow">
+              <input type="radio" name="optSexo" id="optSexo" />Femenino
+              <input type="radio" name="optSexo" id="optSexo" />Masculino
+              <input type="radio" name="optSexo" id="optSexo" />Other
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Edad</label></td>
+            <td bgcolor="yellow">
+              <input type="number" name="txtEdad" id="txtEdad" min="1" max="200"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="Cyan"><label>Describase</label></td>
+            <td bgcolor="yellow">
+              <textarea name="txtDescripcion" id="txtDescripcion" cols="30" rows="10"
+              ></textarea>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <center>
+      <input type="submit" value="Enviar" />
+      <!--<input type="reset" value="Limpiar">-->
+      <!--<button type="submit">Enviar </button>-->
+      <button type="reset">Limpiar</button>
+    </center>
+    </form>
+  </body>
+</html>
