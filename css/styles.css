@@ -1,0 +1,38 @@
+* {
+    border-radius: 5px;
+}
+header {
+    width: 99.2%;
+    height: 90px;
+    background-color: red;
+}
+nav {
+    width: 20%;
+    height: 500px;
+    background-color: red;
+    margin: 5px;
+    float: left;
+}
+article {
+    width: 20%;
+    height: 155px;
+    background-color: aqua;
+    padding-top: 90px;
+    padding-right: 725px;
+    float: right;
+}
+aside {
+    width: 20%;
+    height: 500px;
+    background-color: red;
+    margin-top: 55px;
+    margin: 5px;
+    float: right;
+}
+footer {
+    width: 99.2%;
+    height: 90px;
+    background-color: red;
+    margin-top: 10px;
+    float: left;
+}
